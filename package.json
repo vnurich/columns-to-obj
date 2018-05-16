@@ -1,0 +1,23 @@
+{
+  "name": "columns-to-obj",
+  "version": "1.0.0",
+  "description": "Copy-paste Excel columns and convert it to js or php structure (object/array) using premade pattern.",
+  "author": "Vasya Nikolaev <vnurich@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vnurich/columns-to-obj.git"
+  },
+  "main": "js/main.js",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "fancy-log": "^1.3.2",
+    "gulp": "^3.9.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-rollup": "^2.16.2"
+  }
+}
