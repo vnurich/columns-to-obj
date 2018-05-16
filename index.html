@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Copy-paste Excel columns and convert it to js or php structure (object/array) using premade pattern.</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link rel="stylesheet" href="css/styles.css"/>
+  </head>
+  <body>
+    <div class="select-pattern">
+      <select id="main-pattern">
+        <option data-pattern="js">JS: [ {'column1': {oldPrice: column2, price: column3}}, ]</option>
+        <option data-pattern="php">PHP: [ 'column1' => [column2, column3], ]</option>
+      </select>
+    </div>
+    <div class="wrapper">
+      <div class="wrapper__box">
+        <textarea id="main-input">1000	5000	4990
+1001	600	499
+1002	1500	1399</textarea>
+      </div>
+      <div class="wrapper__box">
+        <textarea id="main-output"></textarea>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
