@@ -1,5 +1,7 @@
 Copy-paste Excel columns and convert it to js or php structure (object/array) using premade pattern. *NOTICE:* Tabs between columns (auto generated when copying from excel table) are important.
 
+https://vnurich.github.io/columns-to-obj/
+
 Input data example:
 ```javascript
 // Copy-paste from Excel
