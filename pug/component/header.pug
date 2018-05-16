@@ -1,0 +1,15 @@
+include ../bemto/index.pug
+-
+  set_bemto_settings({
+    prefix: '',
+    element: '__',
+    modifier: '--'
+  })
+
+mixin header(data)
+  head
+    title= data.title
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, minimal-ui')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    link(rel="stylesheet", href="css/styles.css")

@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+	width: 400px;
+	height: 400px;
+	resize: none;
+	overflow-y: scroll;
+}

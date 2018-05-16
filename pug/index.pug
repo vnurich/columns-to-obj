@@ -1,0 +1,15 @@
+include component/header.pug
+
+doctype html
+html
+  +header({
+    title: title
+  })
+  body
+    textarea#main-input
+      |100	200	300
+      |101	190	180
+      |102	30	40
+
+
+    script(src="js/main.js")
