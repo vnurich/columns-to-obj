@@ -1,4 +1,4 @@
-Copy-paste Excel columns and convert it to js or php structure (object/array) using premade pattern. *NOTICE:* Tabs between columns (auto generated when copying from excel table) are important.
+:paperclip: Copy-paste Excel columns and convert it to js or php structure (object/array) using premade pattern. *NOTICE:* Tabs between columns (auto generated when copying from excel table) are important.
 
 https://vnurich.github.io/columns-to-obj/
 
@@ -40,14 +40,14 @@ Pattern structure (see `js/patternList.js`):
 
 Current structures:
 ```javascript
-// JS object generator
+// JS array of objects generator
 [
   {'column1': {oldPrice: column2, price: column3}} 
 ]
 ```
 
 ```javascript
-// PHP object generator
+// PHP associative array generator
 [
   'column1' => [column2, column3] 
 ]
