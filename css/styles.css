@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.select-pattern {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#main-pattern {
+  width: 100%;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 0;
+}
+
+textarea {
+	width: 100%;
+	height: 400px;
+	resize: none;
+	overflow-y: scroll;
+}

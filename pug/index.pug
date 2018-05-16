@@ -3,13 +3,21 @@ include component/header.pug
 doctype html
 html
   +header({
-    title: title
+    title: 'Copy-paste Excel columns and convert it to js or php structure (object/array) using premade pattern.'
   })
   body
-    textarea#main-input
-      |100	200	300
-      |101	190	180
-      |102	30	40
+    .select-pattern
+      select#main-pattern
+        option(data-pattern="js") JS: [ {'column1': {oldPrice: column2, price: column3}}, ]
+        option(data-pattern="php") PHP: [ 'column1' => [column2, column3], ]
+    .wrapper
+      .wrapper__box
+        textarea#main-input
+          |1000	5000	4990
+          |1001	600	499
+          |1002	1500	1399
 
+      .wrapper__box
+        textarea#main-output
 
     script(src="js/main.js")
